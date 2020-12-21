@@ -25,3 +25,4 @@ public interface RegistrationRepositoryInterface extends JpaRepository<Registrat
 //	   List<RegistrationModelClass> getClassVal();
 
 }
+

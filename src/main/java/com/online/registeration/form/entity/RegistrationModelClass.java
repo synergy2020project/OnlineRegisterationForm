@@ -58,6 +58,7 @@ public class RegistrationModelClass {
 	private String current_address;
 	
 	
+	
 	public Integer getId() {
 		return id;
 	}

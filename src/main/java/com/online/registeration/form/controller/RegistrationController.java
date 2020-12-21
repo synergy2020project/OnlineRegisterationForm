@@ -28,6 +28,7 @@ public class RegistrationController {
 	}
 	
 	
+	
 //	@RequestMapping(value="/getStudentDetails")
 //	public @ResponseBody List<RegistrationModelClass> StudentDetails() {
 ////		List<RegistrationModelClass> registrModelObj=new <RegistrationModelClass>();

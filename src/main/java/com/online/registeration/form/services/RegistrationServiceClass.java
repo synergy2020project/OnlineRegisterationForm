@@ -26,5 +26,6 @@ public interface RegistrationServiceClass {
 //	public Integer max();
 
     
+	
 
 }

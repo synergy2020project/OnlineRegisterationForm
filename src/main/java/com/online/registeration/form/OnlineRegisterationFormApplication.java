@@ -12,4 +12,5 @@ public class OnlineRegisterationFormApplication {
 		SpringApplication.run(OnlineRegisterationFormApplication.class, args);
 	}
 
+	
 }
