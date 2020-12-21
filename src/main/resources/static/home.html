@@ -1,0 +1,140 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="ISO-8859-1"> 
+  <style>  
+   body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: black;  
+}  
+.container {  
+    padding: 500px;  
+  background-color: white;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: red;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+         hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+  </style>  
+<title> ONLINE REGISTRATION FORM</title>
+</head>
+<body >
+<form method="post" action="registeration" modelAttribute="RegistrationModelClass">  
+  <div class="container">
+ <centre img src="gowbell.png" alt="gowbell"> </centre>
+      <center> <h1 style="color:blue"> Gowbell &#174;</h1> </center>    
+      <center> <h2 style="color:red"> Student Registeration Form</h2> </center>  
+   <hr>  
+     <label> Student Name(in Capital Letters) </label>   
+     <input type="text" name="student_name" placeholder= "Student Name" size="15" required />
+  <div>  
+  <label>   
+     Gender :  
+  </label>
+  <br>  
+    <input type="radio" value="M" name="gender" checked > Male   
+    <input type="radio" value="F" name="gender"> Female    
+  
+   </div>
+   <div>
+    <label>Date Of Birth:</label><br>
+      <input type="date" id="Date Of Birth" name="dob">
+      <p>Click the button to get Calendar.</p>
+
+   </div>
+   <div>  
+      <label>   
+          School Name :  
+      </label>   
+  
+
+       <input type="text" name="school_name" placeholder= "School Name" size="15" required /> 
+   </div>  
+       
+   <div>  
+      <label>   
+        Class :  
+      </label>   
+  
+
+        <input type="text" name="class_name" placeholder= "Classes" size="15" required /> 
+   </div>  
+   <div>  
+    <label>   
+       Section :  
+    </label>   
+  
+
+       <input type="text" name="section_name" placeholder= "Section" size="15" required /> 
+   </div> 
+<div>
+<label>
+Board:  
+</label><br>  
+    <input type="radio" value="CBSE" name="Board" checked > CBSE  
+    <input type="radio" value="ICSE" name="Board"> ICSE  
+    <input type="radio" value="IB" name="Board"> IB 
+    <input type="radio" value="IGCSE" name="Board"> IGCSE 
+    <input type="radio" value="CIE" name="Board"> CIE 
+    <input type="radio" value="STATE BOARD" name="Board"> STATE BOARD 
+    <input type="radio" value="OTHERS" name="Board"> OTHERS 
+</div>
+  Current Address :  
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required name="current_address"/>  
+</textarea> 
+ 
+<label>   
+      Phone :  
+</label>  
+    <select>  
+        <option value="+91">+91</option>  
+        <option value="+91">+91</option>  
+        <option value="+1">+1</option>  
+        <option value="+86">+86</option>  
+        <option value="+81">+81</option>  
+        <option value="+966">+966</option>  
+        <option value="+254">+254</option>  
+    </select>    
+    <input type="text" name="phone_number" placeholder="phone no." size="10"/ required>   
+  
+    <label for="email"><b>Email</b></label>  
+    <input type="text" placeholder="Enter Email" name="email_address" required>
+  <hr>
+    <input type="checkbox">
+    <label for="decleration">I here by declare that all the details mentioned above are true to the best of my knowledge.I have read and understood the rules & regulations of Gowbell Olympaids and agree that i and child shall abide by them. <a href="#">Terms & Privacy</a>.</label> 
+    <button type="submit" class="registerbtn">Register</button>    
+</form>
+
+</body>
+</html>
